@@ -1100,6 +1100,7 @@ button {
 
 
 
+
     /*section2-service*/
 
 
@@ -1176,6 +1177,8 @@ button {
         width: calc((100% - 48px) / 3);
     }
 
+
+
     /*footer*/
 
     .page-footer {
@@ -1197,34 +1200,7 @@ button {
         padding-right: 80px;
 
     }
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*mobile-menu*/
 
@@ -1239,7 +1215,7 @@ button {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-
+    z-index: 1;
 }
 
 .mobile-menu.is-open {
