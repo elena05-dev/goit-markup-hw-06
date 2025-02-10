@@ -749,7 +749,6 @@ button {
 .check-text {
     display: flex;
     flex-direction: row;
-
     align-items: center;
     font-weight: 400;
     font-size: 12px;
@@ -1184,17 +1183,15 @@ button {
     }
 
     /*footer*/
-    .container {
-        max-width: 1158px;
-        padding: 0 15px;
-    }
 
     .page-footer {
         padding: 100px 0 100px;
 
     }
 
-    .container-footer {
+    .container.container-footer {
+        max-width: 1158px;
+        padding: 0 15px;
         display: flex;
         align-items: baseline;
         padding-bottom: 0;
